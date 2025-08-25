@@ -238,6 +238,7 @@ nav.lower {
   position: relative;
   left: -2px;
 }
+
 .lower a {
   display: flex;
   align-items: center;
@@ -378,6 +379,7 @@ nav.lower {
   font-size: 51.01px;
   font-weight: 300;
   line-height: 54px;
+  gap: 6px; 
 }
 
 .get-started-text p:last-of-type {
@@ -458,6 +460,8 @@ nav.lower {
     font-size-adjust: none;
     font-stretch: 100%;
     font-weight: 500;
+    /* letter-spacing: 0.08px; */
+    display: inline-block; 
     letter-spacing: 0.08px;
     line-height: 20px;
     padding: 6px 6px 0;
@@ -469,6 +473,7 @@ nav.lower {
 }
 .special-container {
   display: flex;
+  flex-direction: column;
   gap: 18px;
   box-sizing: border-box;
   padding: 0px 36px;
@@ -476,12 +481,11 @@ nav.lower {
 
 .gifts-title {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 18px;
 }
 
-.gifts-title,
 .gift {
   flex: 1;
   min-width: 212.47px;
@@ -499,7 +503,6 @@ nav.lower {
   font-weight: 500;
   letter-spacing: 0.13505px;
   line-height: 35.113px;
-  max-width: 240px;
 }
 .gifts {
   display: flex;
@@ -590,6 +593,7 @@ nav.lower {
     position: relative;
     top: 2px;
   }
+
   .upper ul {
     margin-top: 20px;
   }
@@ -637,7 +641,7 @@ nav.lower {
     left: -54px;
   }
 
-  .gift {
+  .gift-img {
     position: relative;
     left: -34px;
   }
@@ -884,8 +888,9 @@ nav.lower {
   }
   .get-started-link {
     position: absolute;
-    top: 339px;
+    padding: 15.5px 19px 14px 18.5px;
     z-index: 10;
+    bottom: 12px;
   }
 }
 
@@ -971,6 +976,35 @@ nav.lower {
   br {
     display: none;
   }
+
+    .spacer {
+        height: 96px;
+    }
+
+    .special-container {
+    flex-direction: row;
+    /* gap: 18px; */
+    /* box-sizing: border-box;
+    padding: 0px 36px; */
+    }
+
+    .gifts-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    }
+
+    .gifts-title,
+    .gift {
+    flex: 1;
+    min-width: 212.47px;
+    aspect-ratio: 1.306;
+    }
+
+    .gifts-title p {
+        max-width: 230px;
+    }
 }
 
 @media screen and (min-width: 1130px) {
