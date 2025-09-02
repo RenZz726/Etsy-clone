@@ -56,5 +56,252 @@
       "placeholder": "Search for anything",
       "icon": "assets/images/search.svg"
     }
+  },
+  "heroSection": {
+    "getStartedContainer": {
+      "textContainer": {
+        "text1": "Refresh your home",
+        "text2": "Shop our Favourite lamps, rugs, and more",
+        "a": {
+          "text": "Get started",
+          "link": "www.google.com"
+        }
+      },
+      "imageContainer": {
+        "bgImage": "assets/images/hero_left.webp",
+        "alt": "backgroundImage"
+      }
+    },
+    "shopContainer": {
+      "text1": "Vintage Area Rugs",
+      "text2": "Shop now"
+    }
+  },
+  "discoverOurBest": {
+    "contents": {
+      "title": "Discover our best of summer 2025",
+      "cards": [
+        {
+          "image": "assets/images/dis-card-1.jpg",
+          "text": "New Arrivals"
+        },
+        {
+          "image": "assets/images/dis-card-2.jpg",
+          "text": "Top 100 Summer Bestsellers"
+        },
+        {
+          "image": "assets/images/dis-card-3.jpg",
+          "text": "Top Linen Finds"
+        },
+        {
+          "image": "assets/images/dis-card-4.jpg",
+          "text": "Top 100 Hosting Essentials"
+        },
+        {
+          "image": "assets/images/dis-card-5.jpg",
+          "text": "Top 100 Back to School Essentials"
+        }
+      ]
+    }
+  },
+  "specialGifts": {
+    "head": {
+      "title": "Etys-special gifts for Halloween",
+      "link": {
+        "url": "www.com",
+        "text": "Get inspired"
+      }
+    },
+    "gifts": [
+      {
+        "className": "gift hallo-kids",
+        "text": "Halloween Kids Apparel"
+      },
+      {
+        "className": "gift hallo-plushies",
+        "text": "Halloween Plushies"
+      },
+      {
+        "className": "gift hallo-crowns",
+        "text": "Gothic Crowns"
+      }
+    ]
+  },
+  "giftsAndPrice": {
+    "items": [
+      {
+        "className": "items item1",
+        "price": "₹ 3,001",
+        "priceStrike": "₹ 3,751"
+      },
+      {
+        "className": "items item2",
+        "price": "₹ 540"
+      },
+      {
+        "className": "items item3",
+        "price": "₹ 11,041"
+      },
+      {
+        "className": "items item4",
+        "price": "₹ 1,857",
+        "priceStrike": "₹ 2,477"
+      },
+      {
+        "className": "items item5",
+        "price": "₹ 5,211",
+        "priceStrike": "₹ 6,514"
+      },
+      {
+        "className": "items item6",
+        "price": "₹ 9,186"
+      }
+    ]
+  },
+  "otherAccessories": {
+    "title": "Gifts as special as they are",
+    "accessContainers": [
+      {
+        "className": "access-container a1",
+        "subClass": "accessory1 accessory",
+        "image": "assets/images/special-gift1.avif",
+        "text": "Autumn Host Gifts"
+      },
+      {
+        "className": "access-container a2",
+        "subClass": "accessory2 accessory",
+        "image": "assets/images/special-gift2.avif",
+        "text": "Autumn Style Gifts"
+      },
+      {
+        "className": "access-container a3",
+        "subClass": "accessory3 accessory",
+        "image": "assets/images/special-gift3.avif",
+        "text": "Autumn Candles"
+      },
+      {
+        "className": "access-container a4",
+        "subClass": "accessory4 accessory",
+        "image": "assets/images/special-gift4.avif",
+        "text": "Autumn Wreaths"
+      },
+      {
+        "className": "access-container a5",
+        "subClass": "accessory5 accessory",
+        "image": "assets/images/dis-card-5.jpg",
+        "text": "Leather & Suede Accessories"
+      }
+    ]
+  },
+  "mostLoved": {
+    "title": "Shop our most-loved categories",
+    "containers": [
+      {
+        "className": "loved-item l1",
+        "image": "assets/images/most-loved-item1.avif",
+        "text": "Prints"
+      },
+      {
+        "className": "loved-item l2",
+        "image": "assets/images/most-loved-item2.avif",
+        "text": "Necklaces"
+      },
+      {
+        "className": "loved-item l3",
+        "image": "assets/images/most-loved-item3.webp",
+        "text": "Signs"
+      },
+      {
+        "className": "loved-item l4",
+        "image": "assets/images/most-loved-item4.avif",
+        "text": "Crochet patterns"
+      },
+      {
+        "className": "loved-item l5",
+        "image": "assets/images/most-loved-item5.avif",
+        "text": "Wall decor"
+      },
+      {
+        "className": "loved-item l6",
+        "image": "assets/images/most-loved-item6.webp",
+        "text": "Craft supplies and tools"
+      }
+    ]
+  },
+  "kidsFavourite": {
+    "title": "Editors' Picks",
+    "mainTitle": "Kids & Baby Favourite",
+    "link": {
+      "text": "Shop these unique finds",
+      "image": "assets/images/rightarrow.svg"
+    },
+    "containers": [
+      {
+        "className": "kid1 kid",
+        "price": "₹ 4,865"
+      },
+      {
+        "className": "kid2 kid",
+        "price": "₹ 6,216"
+      },
+      {
+        "className": "kid3 kid",
+        "price": "₹ 3,045"
+      },
+      {
+        "className": "kid4 kid",
+        "price": "₹ 191",
+        "priceStrike": "₹ 212"
+      },
+      {
+        "className": "kid5 kid",
+        "price": "₹ 4,865"
+      },
+      {
+        "className": "kid6 kid",
+        "price": "₹ 1,711",
+        "priceStrike": "₹ 2,280"
+      }
+    ],
+    "description": "Your one-stop shop for clothing, decor, toys, and more, that all children will love.",
+    "seeMore": {
+      "text": "See more",
+      "image": "assets/images/rightarrow.svg"
+    }
+  },
+  "standoutStyles": {
+    "title": "Save now on standout styles",
+    "containers": [
+      {
+        "className": "standout standout1",
+        "image": "assets/images/standout1.jpg",
+        "text1": "Porch Decor",
+        "text2": "up to 20% off"
+      },
+      {
+        "className": "standout standout2",
+        "image": "assets/images/standout2.jpg",
+        "text1": "Gifts for Him",
+        "text2": "up to 30% off"
+      },
+      {
+        "className": "standout standout3",
+        "image": "assets/images/standout3.jpg",
+        "text1": "School Signs",
+        "text2": "up to 30% off"
+      },
+      {
+        "className": "standout standout4",
+        "image": "assets/images/standout4.jpg",
+        "text1": "Jumpers",
+        "text2": "up to 20% off"
+      },
+      {
+        "className": "standout standout5",
+        "image": "assets/images/standout5.jpg",
+        "text1": "Furnishings",
+        "text2": "up to 20% off"
+      }
+    ]
   }
 }
