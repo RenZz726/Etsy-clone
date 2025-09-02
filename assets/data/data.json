@@ -1,4 +1,60 @@
 {
-    "header":{},
-    "cards":[{"imageUrl":"https://i.etsystatic.com/ij/735b89/7071953898/ij_300x300.7071953898_4nbsconc.jpg?version=0","label":"Card label"},{"imageUrl":"https://i.etsystatic.com/ij/735b89/7071953898/ij_300x300.7071953898_4nbsconc.jpg?version=0","label":"Card label"}]
+  "header": {
+    "logo": {
+      "src": "assets/images/logo.svg",
+      "alt": "logo"
+    },
+    "categories": {
+      "icon": "assets/images/hambuger.svg",
+      "label": "Categories"
+    },
+    "upperSearch": {
+      "searchPlaceholder": "Search for anything",
+      "icon": "assets/images/search.svg"
+    },
+    "actions": [
+      { "type": "button", "class": "btn sign-in", "label": "Sign in" },
+      {
+        "type": "icon",
+        "class": "btn flag",
+        "src": "assets/images/flag.svg",
+        "alt": "flag"
+      },
+      {
+        "type": "icon",
+        "class": "btn like",
+        "src": "assets/images/like.svg",
+        "alt": "like"
+      },
+      {
+        "type": "icon",
+        "class": "btn gift-img",
+        "src": "assets/images/gifts.svg",
+        "alt": "gifts"
+      },
+      {
+        "type": "icon",
+        "class": "btn cart",
+        "src": "assets/images/cart.svg",
+        "alt": "cart"
+      }
+    ],
+    "navLinks": [
+      {
+        "label": "Gifts",
+        "href": "#",
+        "icon": "assets/images/gifts_copy.svg",
+        "iconWidth": "20px"
+      },
+      { "label": "The Personalisation Shop", "href": "#" },
+      { "label": "Home Favourites", "href": "#" },
+      { "label": "Fashion Finds", "href": "#" },
+      { "label": "Registry", "href": "#" }
+    ],
+    "lowerSearch": {
+      "hamburger": "assets/images/hamburgerlarge.svg",
+      "placeholder": "Search for anything",
+      "icon": "assets/images/search.svg"
+    }
+  }
 }
