@@ -268,6 +268,85 @@ function generatingStandOutSection(data) {
   `;
 }
 
+function generatingEmailSection(data) {
+    return `
+        <div class="email-dsptn">
+          <p>${data.text}</p>
+        </div>
+          <div class="email-box">
+            <input type="text" placeholder="${data.emailBox.placeholder}">
+            <button>${data.emailBox.button}</button>
+          </div>
+    `;
+}
+
+function generatingEtsyHighlightSection(data) {
+    return `
+        <img src="${data.image}" alt="img">
+        <span>${data.text}</span>
+    `;
+}
+
+function generatingLinksAndMoreSection(data) {
+  return `
+    <div class="link-inner">
+     <div class="links">
+    ${data.links
+      .map(
+        (section) => `
+          <ul class="${section.className}">
+            <li class="title">${section.title}</li>
+            ${section.linkList
+              .map((item) => `<li>${item.link}</li>`)
+              .join("")}
+            
+            ${
+              section.socialMedias
+                ? `<ul class="medias">
+                    ${section.socialMedias
+                      .map(
+                        (media) =>
+                          `<li><img src="${media.icon}" alt="${media.alt}"></li>`
+                      )
+                      .join("")}
+                  </ul>`
+                : ""
+            }
+          </ul>
+        `
+      )
+      .join("")}
+    </div>
+    <div class="logo-section">
+      <img src="${data.logoSection.image}" alt="logo">
+      <a href="${data.logoSection.href}">${data.logoSection.link}</a>
+    </div>
+    </div>
+  `;
+}
+
+function generatingFooterSection(data) {
+    return `
+        <div class="footer-nav">
+          <div class="country">
+            <img src="${data.flag}" alt="flag">
+            <span>${data.text.country}&nbsp; | &nbsp; ${data.text.language} &nbsp; | &nbsp; ${data.text.currency}</span>
+          </div>
+          <div class="links">
+            <span>${data.links.text}</span>
+            <ul>
+                ${data.links.linkList.map(
+                    (l) => {
+                       return `<li><a href="">${l.link}</a></li>`
+                    }
+                )
+                .join("")}
+            </ul>
+          </div>
+        </div>
+    `;
+}
+
 import data from './assets/data/data.json' with {type: "json"}
 console.log(data); 
 
@@ -334,4 +413,22 @@ const standoutStyleSection = generatingStandOutSection(data.standoutStyles);
 const standoutStyles = createElement(standoutStyleSection, "section", null, "standout-styles");
 appendTo("body", standoutStyles);
 
+const emailSpacer = createElement(null, "div", null, "email-spacer");
+appendTo("body", emailSpacer);
+
+const emailSection = generatingEmailSection(data.emailSection);
+const emailContainer = createElement(emailSection, "section", null, "email-section");
+appendTo("body", emailContainer);
+
+const etsyHighlightSection = generatingEtsyHighlightSection(data.etsyHighlight);
+const etsyHighlight = createElement(etsyHighlightSection, "section", null, "etsy-highlight");
+appendTo("body", etsyHighlight);
+
+const linksAndMoreSection = generatingLinksAndMoreSection(data.additionalLinks);
+const linksAndMore = createElement(linksAndMoreSection, "section", null, "links-and-more");
+appendTo("body", linksAndMore);
+
+const footerSection = generatingFooterSection(data.footer);
+const footer = createElement(footerSection, "footer", null, null);
+appendTo("body", footer);
 

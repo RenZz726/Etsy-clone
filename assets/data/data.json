@@ -303,5 +303,91 @@
         "text2": "up to 20% off"
       }
     ]
+  },
+  "emailSection": {
+    "text": "Yes! Send me exclusive offers, unique gift ideas, and personalised tips for shopping and selling on Etsy.",
+    "emailBox": {
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    }
+  },
+  "etsyHighlight": {
+    "image": "assets/images/renew-ele.svg",
+    "text": "Etsy is powered by 100% renewable electricity."
+  },
+  "additionalLinks": {
+    "links": [
+      {
+        "className": "shop",
+        "title": "Shop",
+        "linkList": [
+          { "link": "Gift cards" },
+          { "link": "Etsy Registry" },
+          { "link": "Sitemap" },
+          { "link": "Etsy blog" },
+          { "link": "Etsy United Kingdom" },
+          { "link": "Etsy Germany" },
+          { "link": "Etsy Canada" }
+        ]
+      },
+      {
+        "className": "sell",
+        "title": "Sell",
+        "linkList": [
+          { "link": "Sell on Etsy" },
+          { "link": "Teams" },
+          { "link": "Forums" },
+          { "link": "Affiliates & Creators" }
+        ]
+      },
+      {
+        "className": "about",
+        "title": "About",
+        "linkList": [
+          { "link": "Etsy, Inc." },
+          { "link": "Policies" },
+          { "link": "Investors" },
+          { "link": "Careers" },
+          { "link": "Press" },
+          { "link": "Impact" },
+          { "link": "Legal Imprint" }
+        ]
+      },
+      {
+        "className": "help",
+        "title": "Help",
+        "linkList": [{ "link": "Help Centre" }, { "link": "Privacy settings" }],
+        "socialMedias": [
+          { "icon": "assets/images/insta.svg", "alt": "insta" },
+          { "icon": "assets/images/facebook.svg", "alt": "facebook" },
+          { "icon": "assets/images/pinrest.svg", "alt": "pinterest" },
+          { "icon": "assets/images/youtube.svg", "alt": "youtube" }
+        ]
+      }
+    ],
+    "logoSection": {
+      "image": "assets/images/etsy-footer.svg",
+      "link": "Download the Etsy App",
+      "href": "etsy.com"
+    }
+  },
+  "footer": {
+    "flag": "assets/images/flag.svg",
+    "text": {
+      "country": "India",
+      "language": "English (IN)",
+      "currency": "₹ (INR)"
+    },
+    "links": {
+      "text": "© 2025 Etsy, Inc.",
+      "linkList": [
+        {"link": "Terms of Use"},
+        {"link": "Privacy"},
+        {"link": "Interest-based ads"},
+        {"link": "Local Shops"},
+        {"link": "Regions"}
+      ]
+    }
   }
 }
+
